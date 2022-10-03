@@ -1,0 +1,4 @@
+docker build -t demo-spring-docker.jar .
+docker run -p 8989:8080 demo-spring-docker.jar
+
+docker image ls
